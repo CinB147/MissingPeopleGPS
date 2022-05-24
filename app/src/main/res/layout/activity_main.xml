@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Latitude: null, Longitude: null"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"
+        android:textSize="18sp"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get My Location"
+        android:onClick="onGetMyLocationButtonClicked"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Map"
+        android:onClick="onOpenMapButtonClicked"/>
+
+    <ImageView
+        android:layout_width="255dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="-300dp"
+        android:src="@drawable/logolocato"
+
+        />
+
+</LinearLayout>
